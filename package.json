@@ -1,0 +1,22 @@
+{
+  "name": "fsaycon-slides",
+  "version": "1.0.0",
+  "description": "This is created using mdx slides. I will eventually transfer all my pdf/powerpoint presentations here so kindly stay tuned!\r Feel free to use them since the purpose of this is to share knowledge, hopefully you won't use it for profit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franreysaycon/Slides.git"
+  },
+  "author": "Franrey Anthony S. Saycon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franreysaycon/Slides/issues"
+  },
+  "homepage": "https://github.com/franreysaycon/Slides#readme",
+  "devDependencies": {
+    "mdx-deck": "^2.4.0"
+  }
+}
