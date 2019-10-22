@@ -2,6 +2,4 @@
 
 echo "Make sure you are at root directory! :D"
 
-npm run build "$1/main.mdx" --basepath="/Slides/$1"
-mv dist/* $1
-rm -rf dist
+./node_modules/.bin/mdx-deck --out-dir $1 --basepath="/Slides/$1" build $1/main.mdx;
