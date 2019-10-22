@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mdx-deck build jamstack-revolution/main.mdx",
-    "start": "mdx-deck jamstack-revolution/main.mdx",
-    "pdf": "mdx-deck-export pdf jamstack-revolution/main.mdx"
+    "build": "mdx-deck build",
+    "start": "mdx-deck",
+    "pdf": "mdx-deck-export pdf"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,10 @@
   },
   "homepage": "https://github.com/franreysaycon/Slides#readme",
   "devDependencies": {
-    "@mdx-deck/export": "^2.4.0",
-    "mdx-deck": "^2.4.0",
-    "rebass": "^3.1.1",
-    "styled-components": "^4.3.2"
+    "@mdx-deck/export": "^2.5.1",
+    "emotion": "^10.0.17",
+    "mdx-deck": "^2.5.1",
+    "rebass": "^3.2.2",
+    "styled-components": "^4.4.0"
   }
 }
