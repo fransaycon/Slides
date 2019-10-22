@@ -1,9 +1,7 @@
 #!/bin/bash
 
-if [ "$1" = "react-native-101" ]; then
-    npm run build "react-native-101/main.mdx" --basepath="/Slides/react-native-101"
-    mv dist/* react-native-101
-    rm -rf dist
-else
-    echo "Invalid command!"
-fi
+echo "Make sure you are at root directory! :D"
+
+npm run build "$1/main.mdx" --basepath="/Slides/$1"
+mv dist/* $1
+rm -rf dist
